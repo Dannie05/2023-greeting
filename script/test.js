@@ -172,7 +172,7 @@ inputName.addEventListener("keypress", (e) => {
     }
 });
 
-inputName.addEventListener('focus',()=>{
+inputName.addEventListener('click',()=>{
     warning.style.display='none'
 })
 
