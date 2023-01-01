@@ -20,10 +20,7 @@ body {
     background: #030303;
 }
 
-:root {
-    /* --bg-image: url(../audio/They\ Found\ a\ City\ Under\ the\ Bermuda\ Triangle.mp4); */
-    --bg-opacity: .8;
-}
+
 
 
 .container {
@@ -41,22 +38,7 @@ body {
 }
 
 
-.controls {
-    display: flex;
-    height: 5vh;
-    width: 100%;
-    flex-wrap: wrap-reverse;
-    justify-content: space-evenly;
-    background: transparent;
-}
 
-/* button{
-    color: rgb(15, 13, 13);
-    width: 8em;
-    background:white;
-    border-radius: 50px;
-    padding: 0;
-} */
 
 .timercolor {
     color: #f2f2f3;

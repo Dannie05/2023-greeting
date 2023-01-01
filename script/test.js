@@ -172,6 +172,10 @@ inputName.addEventListener("keypress", (e) => {
     }
 });
 
+inputName.addEventListener('focus',()=>{
+    warning.style.display='none'
+})
+
 
 setInterval(updateInput, 100);
 setInterval(updateTime, 1000);
