@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Radioland;
+    src: url(../import/RADIOLAND.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+body {
+    overflow: hidden !important;
+    transition: .5s ease-in-out;
+    background: #030303;
+}
+
+:root {
+    /* --bg-image: url(../audio/They\ Found\ a\ City\ Under\ the\ Bermuda\ Triangle.mp4); */
+    --bg-opacity: .8;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../images/pexels-tetyana-kovyrina-937980.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    /* display: none; */
+}
+
+
+.controls {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    background: transparent;
+}
+
+/* button{
+    color: rgb(15, 13, 13);
+    width: 8em;
+    background:white;
+    border-radius: 50px;
+    padding: 0;
+} */
+
+.timercolor {
+    color: #f2f2f3;
+    /* filter: invert(1); */
+    background: transparent;
+    font-size: xx-large;
+}
+
+#clock,
+h1 {
+    font-family: Radioland;
+    /* font-size: 3rem; */
+}
