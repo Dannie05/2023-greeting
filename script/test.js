@@ -136,11 +136,13 @@ btn.addEventListener('click', () => {
         // document.body.append(elem)
         inputName.classList.add('hidden');
         btn.classList.add('hidden');
+        container.classList.add('background');
+        
         setTimeout(() => {
             container.style.display = 'none';
             video.classList.remove('hidden');
             console.log('Happy new year');
-        }, 6000);
+        }, 12000);
 
     }
     inputName.value = '';
@@ -161,11 +163,12 @@ inputName.addEventListener("keypress", (e) => {
                 // document.body.append(elem)
                 inputName.classList.add('hidden');
                 btn.classList.add('hidden');
+                container.classList.add('background')
                 setTimeout(() => {
                     container.style.display = 'none';
                     video.classList.remove('hidden');
                     console.log('Happy new year');
-                }, 6000);
+                }, 12000);
             }
             inputName.value = '';
         });

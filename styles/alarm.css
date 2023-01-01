@@ -29,21 +29,34 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(../images/pexels-tetyana-kovyrina-937980.jpg);
+    background:url(../images/pexels-pixabay-371589.jpg);   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     width: 100% !important;
+    /* color: #030303 !important; */
     /* display: none; */
 }
+.background{
+     background: url(../images/pexels-pixabay-60597.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: #030303;
+}
 
-
-
+.white{
+    color: white !important;
+}
 
 .timercolor {
-    color: #f2f2f3;
+    /* background: linear-gradient(to right, black, grey); */
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     /* filter: invert(1); */
-    background: transparent;
     font-size: xx-large;
 }
 
