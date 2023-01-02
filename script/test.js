@@ -8,7 +8,7 @@ const video = document.querySelector('section.video');
 function formatDay(day) {
     switch (day) {
         case 1:
-            return "monday"
+            return "Monday"
             break;
         case 2:
             return "Tuesday"
@@ -137,12 +137,13 @@ btn.addEventListener('click', () => {
         inputName.classList.add('hidden');
         btn.classList.add('hidden');
         container.classList.add('background');
+        dateItem.classList.add('white');
         
         setTimeout(() => {
             container.style.display = 'none';
             video.classList.remove('hidden');
             console.log('Happy new year');
-        }, 12000);
+        }, 15000);
 
     }
     inputName.value = '';
@@ -163,12 +164,13 @@ inputName.addEventListener("keypress", (e) => {
                 // document.body.append(elem)
                 inputName.classList.add('hidden');
                 btn.classList.add('hidden');
-                container.classList.add('background')
+                container.classList.add('background');
+                dateItem.classList.add('white');
                 setTimeout(() => {
                     container.style.display = 'none';
                     video.classList.remove('hidden');
                     console.log('Happy new year');
-                }, 12000);
+                }, 15000);
             }
             inputName.value = '';
         });

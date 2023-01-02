@@ -19,12 +19,8 @@ body {
     transition: .5s ease-in-out;
     background: #030303;
 }
-
-
-
-
 .container {
-    height: 100vh;
+    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +30,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 100% !important;
+    /* width: 100% !important; */
     /* color: #030303 !important; */
     /* display: none; */
 }
@@ -42,8 +38,9 @@ body {
      background: url(../images/pexels-pixabay-60597.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-attachment: fixed;
+    object-fit: cover;
     color: #030303;
 }
 
@@ -53,9 +50,10 @@ body {
 
 .timercolor {
     /* background: linear-gradient(to right, black, grey); */
-    background: black;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: #030303;
+    color: aqua;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
     /* filter: invert(1); */
     font-size: xx-large;
 }
